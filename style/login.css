@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+body {
+    background-color: #49de8f;
+    background-image:url("../images/img/login_bg.png");
+}
+.div-title{
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align:center;
+}
+.div-title span {
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 40px;
+    letter-spacing:2px;
+    color:#fcfffb;
+    text-shadow: 2px 3px 3px #2c997e;
+}
+.div-login {
+    width: 699px;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    background-color: transparent;
+    background-image:url("../images/img/login_image.png");
+}
+.ul-login {
+    list-style: none;
+    position: relative;
+    width: 250px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 75px;
+    left:150px;
+    background-color: transparent;
+}
+.li-title {
+    height: 30px;
+}
+
+.li-title span {
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 23px;
+    letter-spacing:2px;
+    color:#333333;
+}
+.li-input {
+    height: 55px;
+    margin-top: 15px;
+}
+.li-input span {
+    margin-top:25px;
+    margin-left:5px;
+    width: 80px;
+    height: 25px;
+    float: left;
+    font-size:13pt;
+    color:#b8b8b8;
+}
+input {
+    width: 250px;
+    height: 25px;
+    margin-left: 10px;
+    border-color:#b8b8b8;
+    border-width:0px;
+    border-bottom-width:1px;
+    outline: none;
+    font-size: 15px;
+}
+.li-login {
+    width:250px;
+    height: 45px;
+    line-height: 40px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color:#3fbe7b;
+    font-size:18px;
+    letter-spacing:5px;
+}
+.prompt {
+    width:250px;
+    height: 50px;
+    margin-left: 10px;
+    line-height: 85px;
+    text-align: center;
+    font-size: 13px;
+    color:white;
+}
+.usr-null {
+    width:250px;
+    height: 50px;
+    margin-left: 10px;
+    line-height: 85px;
+    text-align: center;
+    font-size: 13px;
+    color:red;
+}
+.input-login{
+    margin-top: 10px;
+    width: 250px;
+    height: 45px;
+    background-color: #3fbe7b;
+    border-width: 0px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}

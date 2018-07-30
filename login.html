@@ -1,0 +1,57 @@
+<!--<%@ page language="java" pageEncoding="UTF-8"%>-->
+
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>物联监控平台 -- 客户管理</title>
+    <script>
+        function check()
+        {
+            var obj = document.getElementById("check");
+            if(document.getElementById("username").value=="")
+            {
+                alert("用户名不允许为空!");
+                return false;
+            }
+            if(document.getElementById("password").value=="")
+            {
+                alert("密码不允许为空!");
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="./style/login.css?v1.0.0">
+</head>
+<body>
+<form action="${pageContext.request.contextPath}/login" method="post">
+    <div class="div-title">
+        <span>农业物联监控系统 -- 客户管理</span>
+    </div>
+    <div class="div-login">
+        <ul class="ul-login">
+            <li class="li-title select-disable">
+                <span>欢迎登录客户管理</span>
+            </li>
+            <li class="li-input">
+                <span>用户名</span>
+                <input class="username" id="username" name="username" type="text" ondragstart="return false" />
+            </li>
+            <li class="li-input">
+                <span>密码</span>
+                <input class="password" id="password" name="password" type="password" ondragstart="return false"/>
+            </li>
+            <li class="prompt" id="check">
+                <span>用户名不能为空</span>
+            </li>
+            <li>
+                <input class="input-login" name="submit" type="submit" value="登 录"/>
+            </li>
+        </ul>
+    </div>
+</form>
+</body>
+</html>
